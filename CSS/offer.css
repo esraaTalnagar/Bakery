@@ -1,0 +1,93 @@
+.title{
+    background-position: center center;
+    height: 290px;
+}
+.title p a{
+    color: RGB(255, 255, 255);
+    text-decoration: none;
+
+}
+.offers{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    'offer1 offer2 offer3'
+    'offer4 offer5 offer6'
+    'offer7 offer8 offer9'
+    'offer10 offer11 offer12';
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    padding: 80px 0;
+    gap: 20px;
+}
+.offer1{
+    grid-area: offer1;
+}
+.offer2{
+    grid-area: offer2;
+}
+.offer3{
+    grid-area: offer3;
+}
+.offer4{
+    grid-area: offer4;
+}
+.offer5{
+    grid-area: offer5;
+}
+.offer6{
+    grid-area: offer6;
+}
+.offer7{
+    grid-area: offer7;
+}
+.offer8{
+    grid-area: offer8;
+}
+.offer9{
+    grid-area: offer9;
+}
+.offer10{
+    grid-area: offer10;
+}
+.offer11{
+    grid-area: offer11;
+}
+.offer12{
+    grid-area: offer12;
+}
+.offers p{
+    color: RGB(104, 104, 104);
+    font-size: 17px;
+    line-height: 31.62px ;
+    font-weight: 400;
+    font-family: 'Alegreya';
+}
+.offers h5{
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 20px;
+    color: RGB(48, 48, 48);
+    font-family: 'Alegreya';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.84px;
+}
+.offers span{
+    float: right;
+    color:RGB(136, 136, 136);
+}
+.offer1,
+.offer2,
+.offer3,
+.offer4,
+.offer5,
+.offer6,
+.offer7,
+.offer8,
+.offer9,
+.offer10,
+.offer11,
+.offer12{
+    padding-bottom: 20px;
+}

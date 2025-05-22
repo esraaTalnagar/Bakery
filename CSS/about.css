@@ -1,0 +1,186 @@
+
+.title{
+    background: url('../img/drew-coffman-1872.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.title h1{
+    font-size: 56px;
+    font-family: 'Alegreya';
+    color: RGB(255, 255, 255);
+    font-weight: 400;
+    line-height: 77.28px;
+}
+.title p{
+    font-size: 18px;
+    font-family: "Alegreya Sans";
+    color: RGB(255, 255, 255);
+    line-height: 33.48px;
+    margin: 14px 284.062px 10px;
+}
+#ourStory {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    align-content: center;
+    gap: 70px;
+    text-align: start;
+    padding: 80px 0;
+}
+#ourStory h2{
+    font-size: 32px;
+    font-family: 'Alegreya';
+    color: RGB(48, 48, 48);
+    font-weight: 400;
+    line-height: 34.2002px;
+    margin-bottom: 25px;
+}
+#ourStory p{
+    font-size: 18.3872px;
+    font-family: "Alegreya Sans";
+    line-height: 31.62px;
+    color: RGB(136, 136, 136);
+}
+#ourStory hr{
+    width: 10%;
+}
+/* #ourStory::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 235px);
+    background-color: #F8F8F8;
+    top: 0;
+    left: -120px;
+    right: 0;
+    z-index: -1;
+} */
+.our-story-img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/*.our-story-img {
+    width: 100%;
+    margin: 0;
+} */
+#whuOurBakery{
+    background-color: #F8F8F8;
+    padding: 80px 0;
+}
+#whuOurBakery .heading i{
+    font-size: 40px;
+    color: #AD9667;
+    line-height: 31.62px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#whuOurBakery .heading h3{
+    font-size: 30px;
+    font-family: 'Alegreya';
+    line-height: 41.4px;
+    color: RGB(48, 48, 48);
+    font-weight: 400;
+}
+#whuOurBakery .heading p{
+    font-size: 17px;
+    font-family: "Alegreya Sans";
+    line-height: 31.62px;
+    color: RGB(136, 136, 136);
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#whuOurBakery .content{
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    'content1 content2 content3'
+    'content4 content5 content6' ;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    gap: 30px;
+}
+#whuOurBakery .content1{
+    grid-area: content1;
+}
+#whuOurBakery .content2{
+    grid-area: content2;
+}
+#whuOurBakery .content3{
+    grid-area: content3;
+}
+#whuOurBakery .content4{
+    grid-area: content4;
+}
+#whuOurBakery .content5{
+    grid-area: content5;
+}
+#whuOurBakery .content6{
+    grid-area: content6;
+}
+#whuOurBakery .content1 h5,
+#whuOurBakery .content2 h5,
+#whuOurBakery .content3 h5,
+#whuOurBakery .content4 h5,
+#whuOurBakery .content5 h5,
+#whuOurBakery .content6 h5 {
+    color: #303030;
+    font-size: 18px;
+    font-family: 'Alegreya';
+    font-weight: 500;
+    line-height: 24.84px;
+}
+#whuOurBakery .content1 p,
+#whuOurBakery .content2 p,
+#whuOurBakery .content3 p,
+#whuOurBakery .content4 p,
+#whuOurBakery .content5 p,
+#whuOurBakery .content6 p {
+    color: RGB(104, 104, 104);
+    font-size: 17px;
+    font-family: 'Alegreya Sans';
+    font-weight: 400;
+    line-height: 31.62px;
+}
+.count{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 80px 0;
+    background-color: #8E7754;
+    color: RGBA(255, 255, 255, 0.8);
+}
+.count i{
+    font-size: 34px;
+    line-height: 36px;
+    /* margin-bottom: 25px; */
+}
+.count .likes div,
+.count .locations div,
+.count .ideas div,
+.count .comments div{
+font-family: 'Alegreya';
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 52px;
+    margin-block: 20px;
+}
+.count .likes p,
+.count .locations p,
+.count .ideas p,
+.count .comments p {
+    font-family: 'Alegreya Sans';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31.62px;
+    color:RGBA(255, 255, 255, 0.8) ;
+
+}

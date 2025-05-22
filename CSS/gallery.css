@@ -1,0 +1,23 @@
+.gallery-header {
+    text-align: center;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F8F8F8;
+}
+
+.gallery-header h1 {
+font-size: 36px;
+font-weight: 400;
+font-family: 'Alegreya';
+line-height: 49.68px;
+}
+
+.gallery-header p {
+font-size: 18px;
+font-weight: 400;
+font-family: 'Alegreya sans';
+line-height: 33.48px;
+}
